@@ -112,7 +112,7 @@ def pre_game(categories):
 
         # Difficulty descriptions
         if difficulty == "Easy":
-            st.info("🟢 Easy: Perfect for beginners!")
+            st.success("🟢 Easy: Perfect for beginners!")
         elif difficulty == "Medium":
             st.warning("🟡 Medium: A balanced challenge.")
         else:
